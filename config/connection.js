@@ -1,5 +1,7 @@
 var mysql = require("mysql");
 
+// Need to figure out settings  for this section... will not connect local and deployed works currently
+
 var connection = mysql.createConnection({
   host: "localhost",
   port: 3306,
